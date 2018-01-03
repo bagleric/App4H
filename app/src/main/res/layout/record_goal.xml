@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/goal_item_description_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/goals_title_number"/>
+
+        <TextView
+            android:id="@+id/goal_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/goal_item_description_title"
+            android:text="goal_item_description"/>
+
+        <TextView
+            android:id="@+id/goal_item_to_do_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/goal_deadline_date_title"
+            android:layout_below="@+id/goal_deadline_date_title"
+            android:layout_marginTop="11dp"
+            android:text="@string/to_do_list"/>
+
+        <TextView
+            android:id="@+id/goal_item_to_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/goal_item_to_do_title"
+            android:layout_alignBottom="@+id/goal_item_to_do_title"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/goal_item_to_do_title"
+            android:text="@string/to_do_list"/>
+
+        <TextView
+            android:id="@+id/goal_deadline_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/goal_deadline_date_title"
+            android:layout_alignBottom="@+id/goal_deadline_date_title"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/goal_deadline_date_title"
+            android:text="TextView"/>
+
+        <TextView
+        android:id="@+id/goal_deadline_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goal_item_description_title"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/goal_item_description_title"
+        android:text="@string/deadline"/>
+
+        <TextView
+            android:id="@+id/goal_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"/>
+
+</LinearLayout>

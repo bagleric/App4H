@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "496191327880",
+    "firebase_url": "https://recordbookapp-b47a7.firebaseio.com",
+    "project_id": "recordbookapp-b47a7",
+    "storage_bucket": "recordbookapp-b47a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496191327880:android:c94099f67ea3d405",
+        "android_client_info": {
+          "package_name": "com.example.bagle.recordbookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496191327880-0dskvkpips0j4t18ek9jq3vj68629ovo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bagle.recordbookapp",
+            "certificate_hash": "601ee6964658e64c748f0a44f8c8dfd11a6101b7"
+          }
+        },
+        {
+          "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_SnKkfe5a28Xd0nUw1E4-UByUNwX0Xig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496191327880:android:62539377327702df",
+        "android_client_info": {
+          "package_name": "com.example.bagle.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496191327880-jrikfft0hh43m9isq26t1kkf445jbu7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bagle.loginapp",
+            "certificate_hash": "601ee6964658e64c748f0a44f8c8dfd11a6101b7"
+          }
+        },
+        {
+          "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_SnKkfe5a28Xd0nUw1E4-UByUNwX0Xig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496191327880:android:7558b5438b0d2269",
+        "android_client_info": {
+          "package_name": "com.example.bagle.pdfproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496191327880-iebphfud2m6vfej1pu718ovf8ju4o3js.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bagle.pdfproject",
+            "certificate_hash": "601ee6964658e64c748f0a44f8c8dfd11a6101b7"
+          }
+        },
+        {
+          "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_SnKkfe5a28Xd0nUw1E4-UByUNwX0Xig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496191327880:android:8d03d285c168afb5",
+        "android_client_info": {
+          "package_name": "com.example.bagle.app4h"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496191327880-rimae0r869rgqheun1kt74pclg40ll7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bagle.app4h",
+            "certificate_hash": "601ee6964658e64c748f0a44f8c8dfd11a6101b7"
+          }
+        },
+        {
+          "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_SnKkfe5a28Xd0nUw1E4-UByUNwX0Xig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496191327880-luaj0jcmevt9pdnfqcsvs1o8t2l4lhn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

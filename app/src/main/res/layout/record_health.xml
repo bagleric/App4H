@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/health_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/health_item_species_title"/>
+        <TextView
+            android:id="@+id/health_item_species_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/health_item_species_title"/>
+
+        <TextView
+            android:id="@+id/health_item_species"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/health_item_species_title"
+            android:text="health_item_species"/>
+        <TextView
+            android:id="@+id/health_item_condition_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/health_item_species_title"
+            android:layout_below="@+id/health_item_species_title"
+            android:text="@string/health_condition_title"/>
+
+        <TextView
+            android:id="@+id/health_item_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/health_item_species"
+            android:layout_below="@+id/health_item_species"
+            android:layout_toEndOf="@+id/health_item_condition_title"
+            android:text="health_item_condition"/>
+
+        <TextView
+            android:id="@+id/health_item_product_used_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/health_item_date_title"
+            android:layout_below="@+id/health_item_date_title"
+            android:layout_marginTop="11dp"
+            android:text="@string/health_product_used"/>
+
+        <TextView
+            android:id="@+id/health_item_product_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/health_item_product_used_title"
+            android:layout_alignBottom="@+id/health_item_product_used_title"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/health_item_product_used_title"
+            android:text="@string/to_do_list"/>
+
+        <TextView
+            android:id="@+id/health_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/health_item_date_title"
+            android:layout_alignBottom="@+id/health_item_date_title"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/health_item_date_title"
+            android:text="TextView"/>
+
+        <TextView
+        android:id="@+id/health_item_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/health_item_description_title"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/health_item_description_title"
+        android:text="@string/health_date"/>
+
+        <TextView
+            android:id="@+id/health_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/health_item_comments_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/health_item_description_title"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/health_item_description_title"
+            android:text="@string/heath_item_comments_title"/>
+        <TextView
+            android:id="@+id/health_item_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/health_item_description_title"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/health_item_description_title"
+            android:text="@string/comments"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"/>
+
+</LinearLayout>
