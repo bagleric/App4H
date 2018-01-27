@@ -199,7 +199,6 @@ public class UpdateUserInfo extends AppCompatActivity {
                 if(dataSnapshot.child("birthday").getValue() != null) {
                     birthday = dataSnapshot.child("birthday").getValue().toString();
                     mBirthday.setText(birthday);
-
                 }
                 if(dataSnapshot.child("yearIn4H").getValue() != null) {
                     yearIn4H = dataSnapshot.child("yearIn4H").getValue().toString();
@@ -221,7 +220,6 @@ public class UpdateUserInfo extends AppCompatActivity {
                     zipCode = dataSnapshot.child("zipCode").getValue().toString();
                     mZipCode.setText(zipCode);
                 }
-
             }
 
             @Override
